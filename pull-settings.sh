@@ -3,7 +3,7 @@
 BASEDIR=$(dirname $0)
 
 echo 'Copying config files to the repository...'
-cp ~/.bashrc ~/.zshrc ~/.bash_profile ~/.profile ~/.gitconfig $BASEDIR
+cp ~/.bashrc ~/.zshrc ~/.bash_profile ~/.profile ~/.gitconfig ~/.vimrc $BASEDIR
 echo 'Copying config files to the repository done.'
 
 commit_msg="updated config file $(date '+%Y-%m-%d'). "
